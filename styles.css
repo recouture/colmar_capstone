@@ -79,6 +79,7 @@ nav ul li {
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 60%;
   margin: 32px 24px;
   text-align: left;
@@ -95,6 +96,7 @@ nav ul li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: auto;
   border-left: solid 1px lightgrey;
   padding-top: 16px;
 
@@ -103,6 +105,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-basis: 33%;
   align-content: center;
 
   width: 423px;
@@ -141,4 +144,44 @@ nav ul li {
 }
 .notes .text h5, p, a {
 
+}
+.study {
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: 
+}
+.study h2 {
+  margin-top: 32px
+
+}
+.study .content {
+  display: flex;
+  flex-flow: : row wrap;
+
+  margin: 16px;
+}
+.content .boxes {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: auto;
+  margin: 16px;
+}
+.boxes h4 {
+  margin-top: 16px;
+  margin-left: 16px;
+
+}
+.boxes span {
+  margin-top: 8px;
+  margin-left: : 8px
+}
+.boxes p {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
