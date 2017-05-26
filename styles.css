@@ -1,0 +1,144 @@
+html {
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+/* header */
+header {
+  width: auto;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo {
+  display: flex;
+  margin-left: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.logo #Frstname {
+  color: black;
+  margin-right: 0;
+}
+.logo #Sndname {
+  color: lightgrey;
+  margin-left: 0;
+}
+header nav ul {
+  display: inline;
+}
+nav ul li {
+  display: inline;
+  margin: 8px;
+}
+/* banner */
+.banner {
+  background-color: lightgrey;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.banner img {
+  width: 60%;
+  height: 100%;
+  margin: 32px 24px;
+
+}
+.banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18px;
+  justify-content: center;
+}
+.banner .banner-text a{
+  color: white;
+  background-color: black;
+  padding: 8px;
+  width: inherit;
+}
+/* section */
+.section {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section .left {
+
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 32px 24px;
+  text-align: left;
+}
+.left img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+}
+.section .right {
+  width: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: solid 1px lightgrey;
+  padding-top: 16px;
+
+}
+.section .right .notes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+
+  width: 423px;
+  padding: 16px;
+
+}
+.right .notes img {
+
+  width: 35%;
+  height: auto;
+
+}
+.right .notes #date {
+  background-image: url('../images/information-orientation.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height: auto;
+}
+.right .notes #campus {
+  background-image: url('../images/information-campus.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height: auto;
+}
+.right .notes #guest {
+  background-image: url('../images/information-guest-lecture.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height: auto;
+}
+.right .notes:last-child {
+  background-color: lightgrey;
+}
+.notes .text h5, p, a {
+
+}
